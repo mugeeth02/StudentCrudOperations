@@ -8,5 +8,10 @@ import org.springframework.stereotype.Repository;
 
 @Component
 public interface JpaRepo extends JpaRepository<Registration,Integer> {
+  public void color(){
+
+  }
+
+
 
 }
